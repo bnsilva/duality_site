@@ -1,0 +1,13 @@
+#cabecalho {
+}
+
+#barranav {
+    width: 150px;
+    margin-right: 10px;
+    float: left;
+}
+
+#conteudo {
+    margin-top: 0;
+    margin-left: 160px;
+}
