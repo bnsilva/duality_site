@@ -1,3 +1,30 @@
 th{
 	background: #E0E0E0;
 }
+
+.menu{
+    position: absolute;
+    right: 0;
+}
+
+.menu ul{
+    font-size: 15px;
+}
+
+.menu a{
+    color: #036;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: #007dc6;
+}
+
+.menu a:active{
+    color: #867dc6;
+}
+
+.menu ul li{
+    display: inline;
+    margin-left: 20px;
+}

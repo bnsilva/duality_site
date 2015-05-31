@@ -14,6 +14,7 @@
 					include_once("header.php");
 				?>
 			</header>
+			<br><br>
 
 			<div class="row">	
 				<?php
