@@ -5,6 +5,7 @@ th{
 .menu{
     position: absolute;
     right: 0;
+    padding-right: 15px;
 }
 
 .menu ul{
