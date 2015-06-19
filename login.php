@@ -35,7 +35,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     	}else{
     		$sql->bind_result($id, $email, $nome, $senhabanco, $status);
     		$sql->fetch();
-    		echo "SELECT id, email, nome, senha, status FROM usuarios WHERE id=$id";
+
     		if($status != 'A'){
     			$msg .= 'Sua conta não está ativa, entre em contato conosco <a href="faleconosco.php">aqui</a>.';
     		
@@ -64,8 +64,9 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
                 }
                 setcookie('id', $id, $expiracao);
                 setcookie('nome', $nome, $expiracao);
+                
                 // header('Location: exclusivo/');
-                echo "<meta HTTP-EQUIV='Refresh' CONTENT='0;URL=exclusivo/index.php'>";
+                echo "<meta HTTP-EQUIV='Refresh' CONTENT='0;URL=exclusivo/'>";
             }
     	}
     }

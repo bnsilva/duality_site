@@ -1,6 +1,6 @@
 <?php
 	echo '<div class="col-md-3">';
-	echo '<a href="index.php"><img src="img/duality_logo.jpg" class="img-responsive img-thumbnail" alt="Logo duality"></a>';
+	echo '<a href="index.php"><img src="../img/duality_logo.jpg" class="img-responsive img-thumbnail" alt="Logo duality"></a>';
 	echo '</div>';
 
 	echo '<div class="col-md-9">';
@@ -12,8 +12,8 @@
     			<li> <a href="exibenoticia.php">Noticias</a> </li>
         		<li> <a href="faleconosco.php">Fale conosco</a></li>
         		<li> <a href="https://github.com/bnsilva/duality.git">Download jogo</a> </li>
-        		<li> <a href="criarconta.php">Criar Conta</a> </li>
-        		<li> <a href="login.php">Login</a> </li>
+        		<li> <a href="compradlc.php">Comprar dlc</a> </li>
+        		<li> <a href="logout.php">Logout</a> </li>
 			</ul>
 	 	</nav>
 	 </div>

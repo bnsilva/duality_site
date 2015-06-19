@@ -1,6 +1,10 @@
 <?php
 date_default_timezone_set('America/Sao_Paulo');
 
+header('Cache-Control: no-cache, must-revalidate');
+header('Expires: Sun, 11 Apr 2010 05:00:00 GMT');
+header('Content-Type: text/html; charset=UTF-8');
+
 $conn = new mysqli('localhost','aluno','senha','aluno_sitedojogo');
 
 define('AVATARPATH', '/wamp/www/site/exclusivo/avatares/');
