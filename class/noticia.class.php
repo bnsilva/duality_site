@@ -18,8 +18,8 @@ class noticia{
 		$rs = $conn->query($sql);
 		$dados = $rs->fetch_assoc();
 
-		$this->titulo[] = $dados['titulo'];
-		$this->texto[] = $dados['textonoticia'];
+		$this->titulo[] = utf8_encode($dados['titulo']);
+		$this->texto[] = utf8_encode($dados['textonoticia']);
 		$this->data[] = $dados['datanoticia'];
 		
 	}
@@ -31,8 +31,8 @@ class noticia{
 
 		while($linhadados = $rs->fetch_assoc()){
 			$this->id[] = $linhadados['id'];
-			$this->titulo[] = $linhadados['titulo'];
-			$this->texto[] = $linhadados['textonoticia'];
+			$this->titulo[] = utf8_encode($linhadados['titulo']);
+			$this->texto[] = utf8_encode($linhadados['textonoticia']);
 			$this->data[] = $linhadados['datanoticia'];
 		}
 	}
@@ -46,7 +46,7 @@ class noticia{
 	function printTop10(){
 		for($i = 0; $i < 10 AND $i < count($this->id); $i++){
 			echo '<h3><strong>'.$this->titulo[$i].'</strong></h3>';
-			echo '<p class="text-justify">'.substr($this->texto[$i], 0, 255).'... ';
+			echo '<p class="text-justify">'.substr($this->texto[$i], 0, 240).'... ';
 			echo '<a href="exibenoticia.php?id='.$this->id[$i].'">Leia mais</a><p>';
 			echo '<p>'.$this->data[$i].'</p>';
 		}

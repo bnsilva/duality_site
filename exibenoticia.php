@@ -1,3 +1,4 @@
+<?php include_once('configsite.php'); ?>
 <!DOCTYPE html>
 
 <html>
@@ -19,12 +20,13 @@
 			<div class="row">
 				<?php
 					include_once("ranking.php");
-					
+				?>
+
+				<div class="col-xs-6">
+					<h2>Notícias</h2>
+				<?php
 					// Pega o id da pagina se for 'NULL', imprime todas as noticias
-					// se não pega o id e imprime a noticia correspondente
-					echo '<div class="col-xs-6">';
-					// echo '<h2 class="text-uppercase text-center"> conteúdo </h2>';
-					
+					// se não pega o id e imprime a noticia correspondente	
 					$id = $_GET['id'];
 					include_once("class/noticia.class.php");
 					$noticia = new noticia();

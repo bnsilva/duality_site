@@ -7,7 +7,7 @@ include_once('configsite.php');
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="css/personalizado.css">
-        <title>Duality :: Home</title>
+        <title>Duality :: Email enviado</title>
     </head>
 
     <body>
@@ -25,10 +25,8 @@ include_once('configsite.php');
                 ?>
 
                 <div class="col-md-6">
-                    <h2>Duality home</h2>
-                    <p>Bem vindo a nossa home. Cadastre-se aqui para ter acesso a conteúdo exclusivo.</p>
-                    <p>Você poderá fazer o download do jogo <a href="https://github.com/bnsilva/duality.git">aqui</a>, você será redirecionado
-                        para nosso repositório no github.</p>
+                    <p>Email enviando com sucesso! Sua mensagem será lida e repondida por nossa equipe. Agradecemos o contato. </p>
+                    <p>Clique <a href="index.php">aqui</a> para voltar a nossa home.</p>
 
                 </div>
                     

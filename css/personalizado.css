@@ -2,6 +2,10 @@ th{
 	background: #E0E0E0;
 }
 
+td{
+    text-align: center;
+}
+
 .menu{
     position: absolute;
     right: 0;
@@ -28,4 +32,12 @@ th{
 .menu ul li{
     display: inline;
     margin-left: 20px;
+}
+
+.erro-msg{
+    color: red;
+}
+
+.titulo{
+    font-size: 70px;
 }

@@ -17,7 +17,7 @@ class ranking{
 	}
 
 	function impTabela(){
-		echo '<table class="table">';
+		echo '<table class="table-hover">';
 		echo '<tr> <th class="col-md-4">Posição</th>';
 		echo '<th class="col-md-4">Apelido</th>';
 		echo '<th class="col-md-4">Pontos</th> </tr>';
