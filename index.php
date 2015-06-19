@@ -26,7 +26,7 @@ include_once('configsite.php');
 
                 <div class="col-md-6">
                     <h2>Duality home</h2>
-                    <p>Bem vindo a nossa home. Cadastre-se aqui para ter acesso a conteúdo exclusivo.</p>
+                    <p>Bem vindo a nossa home. Cadastre-se <a href="criarconta.php">aqui</a> para ter acesso a conteúdo exclusivo.</p>
                     <p>Você poderá fazer o download do jogo <a href="https://github.com/bnsilva/duality.git">aqui</a>, você será redirecionado
                         para nosso repositório no github.</p>
 

@@ -117,7 +117,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
                 }
             }
             
-            echo "<meta HTTP-EQUIV='Refresh' CONTENT='0;URL=index.php'>";
+            echo "<meta HTTP-EQUIV='Refresh' CONTENT='0;URL=login.php'>";
 
         }
     }
@@ -152,7 +152,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
                 <div class="col-md-6">
                     <h2>Criar conta</h2>
                     <p>Preencha o formulário abaixo para criar sua conta e ter acesso ao conteúdo exclusivo.</p>
-                    <p> <?php echo "$msg"; ?> </p>
+                    <p class="erro-msg"> <?php echo "$msg"; ?> </p>
 
                     <form action="criarconta.php" method="post">
                         <div class="form-group">
@@ -204,7 +204,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
                             <input type="radio" name="novidade" value="N"> Não
                         </label><br>
 
-                        <label for="noticias">Deseja tornar-se um jogador? <br></label>
+                        <label for="jogador">Deseja tornar-se um jogador? <br></label>
                         <label class="checkbox-inline">
                             <input type="checkbox" id="jogador" value="sim" checked> Sim
                         </label><br>

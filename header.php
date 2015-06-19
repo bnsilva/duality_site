@@ -14,7 +14,7 @@
         		<li> <a href="faleconosco.php">Fale conosco</a></li>
         		<li> <a href="https://github.com/bnsilva/duality.git">Download</a> </li>
         		<li> <a href="criarconta.php">Criar Conta</a> </li>
-        		<li> <a href="#">Login</a> </li>
+        		<li> <a href="login.php">Login</a> </li>
 			</ul>
 	 	</nav>
 	 </div>
