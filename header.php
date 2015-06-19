@@ -11,9 +11,9 @@
     		<ul>
     			<li> <a href="exibenoticia.php">Noticias</a> </li>
         		<li> <a href="#">Sobre</a></li>
-        		<li> <a href="faleconosco">Fale conosco</a></li>
+        		<li> <a href="faleconosco.php">Fale conosco</a></li>
         		<li> <a href="https://github.com/bnsilva/duality.git">Download</a> </li>
-        		<li> <a href="#">Criar Conta</a> </li>
+        		<li> <a href="criarconta.php">Criar Conta</a> </li>
         		<li> <a href="#">Login</a> </li>
 			</ul>
 	 	</nav>
