@@ -1,4 +1,11 @@
-<?php include_once("configsite.php"); ?>
+<?php include_once("configsite.php"); 
+
+$nome = '';
+$email = '';
+$assunto = '';
+$mensagem = '';
+
+?>
 
 <!DOCTYPE html>
 
